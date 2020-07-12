@@ -14,6 +14,4 @@
 Route::get('/', function () {
     return view('index');
 });
-Route::get('source/tsuji', function () {
-    return view('source/tsuji','tsuji_index');
-});
+Route::get('tsuji', 'tsujiController@index');
