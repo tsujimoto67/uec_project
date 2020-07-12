@@ -6,5 +6,6 @@ use Illuminate\Http\Request;
 
 class uecController extends Controller
 {
-    //
+    public function index (){
+    }
 }
